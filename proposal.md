@@ -1,47 +1,42 @@
 # Community Software Analysis Proposal
 Please edit this file and push to your repository.
 
-## Software: *NAME_OF_PACKAGE_HERE*
-just writting an idea here for now I will do aditional research but the package is polatory
+## Software: *PyCaret*
+*Write a paragraph describing what the software does and who its primary audience is.*
 
-*Write a paragraph describing what the software does and who its
-primary audience is.*
+PyCaret is a machine learning library that automates machine learning systems. It's primary audience is for data scientists who wish to build fast prototypes and increase productivity. PyCaret is essientially a Python wrapper around several machines learning libraries and frameworks. The simpilcity of PyCaret is to help Citizen Data Scientists who are seeking to perform simple to moderatly sophisticated tasks that previously required more techinical expertise.
 
-it basicaly implements a memory efficient radial basis function for interpolation that can do dual kreiging, which is a technique for estimating values of a function based on spatially correlated data, which takes into account both the observed values of the function and their spatial correlations.
-
-over all:
-
-In other words, it's a computer program that can estimate the value of a function at points between known data points using an RBF, while minimizing the amount of memory it uses. Additionally, this implementation can perform dual kriging, which means it takes into account both the observed values of the function and their spatial correlations when making its estimates.
-
-i'll complete this on saturday morning I promise.
 ### Stats
 
 | Description | Your answer |
 |---------|-----------|
-| Repository URL |  https://github.com/polatory/polatory  |
-| Main/documentation website |    |
-| Year project was started |   |
-| Number of contributors in the past year | `git shortlog -se --since=2022-03-01` may be useful |
-| Number of contributors in the lifetime of the project |   |
-| Number of distinct affiliations | 1, 2-5, 5-10, >10 |
-| Where do development discussions take place? | e.g., GitHub/GitLab issues, mailing list, Slack, etc.  |
-| Typical number of emails/comments per week? |   |
-| Typical number of commits per week? |  |
-| Typical commit size | `git log --shortstat` may be useful |
-| How does the project accept contributions? | e.g., pull requests, patches on mailing lists   |
-| Does the project have an automated test suite? | yes/no |
-| Does the project use continuous integration? | yes/no |
-| Are any legal/licensing steps required to contribute? | no or explain below |
+| Repository URL |  https://github.com/pycaret/pycaret  |
+| Main/documentation website |  https://pycaret.gitbook.io/docs/  |
+| Year project was started | 2020 |
+| Number of contributors in the past year | 35 |
+| Number of contributors in the lifetime of the project | 105 |
+| Number of distinct affiliations | >5 |
+| Where do development discussions take place? | Slack, Github, Stack Overflow |
+| Typical number of emails/comments per week? | ALOT - Stack Overflow |
+| Typical number of commits per week? | 4 |
+| Typical commit size | 1-2 files |
+| How does the project accept contributions? | Pull Requests |
+| Does the project have an automated test suite? | yes |
+| Does the project use continuous integration? | yes |
+| Are any legal/licensing steps required to contribute? | no |
 
 ### Install and run
 
 Check the following boxes when complete or add a note below if you
 encountered a problem.
 
-- [ ] I have installed the software
-- [ ] I have run at least one example
-- [ ] I have run the test suite
-- [ ] The test suite passes
+- [*] I have installed the software
+    Running pip install pycaret only works with Python version >=3.7, <3.11
+    Conda decided to not work with me as it was throwing internal server errors. Nothing wrong so far with pycaret so far just installation is always annoying :(
+    I've spent 2 hours on this now.
+- [*] I have run at least one example
+- [*] I have run the test suite
+- [*] The test suite passes
 
 ### Notes/concerns/risks
 
